@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/final-project-cf-v3-Latest.iml" filepath="$PROJECT_DIR$/.idea/final-project-cf-v3-Latest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/final-project-cf.main.iml" filepath="$PROJECT_DIR$/.idea/modules/final-project-cf.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/final-project-cf__WorkingNow.final-project-cf.main.iml" filepath="$PROJECT_DIR$/.idea/modules/final-project-cf__WorkingNow.final-project-cf.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gr.aueb.cf.final-project-cf.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gr.aueb.cf.final-project-cf.main.iml" />
+    </modules>
+  </component>
+</project>
