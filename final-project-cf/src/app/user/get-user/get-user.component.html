@@ -1,0 +1,93 @@
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">User Page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Settings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/" (click)="onLogout()">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>User Details</h1>
+    <div *ngIf="user">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ user.username }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Id: {{ user.id }}</h6>
+          <p class="card-text">Firstname: {{ user.firstname }}</p>
+          <p class="card-text">Lastname: {{ user.lastname }}</p>
+          <p class="card-text">Email: {{ user.email }}</p>
+          <p class="card-text">Phone: {{ user.phone }}</p>
+          <p class="card-text">Role: {{ user.role }}</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col bg-primary">
+          <div class="text-center"><h4>Books:</h4></div>
+          <ul>
+            <div class="card-body" *ngIf="user.books.length >= 1">
+              <h5 class="card-title" *ngFor="let book of user.books">
+                Title: {{ book.title }} <br>
+                Author: {{book.author}} <br>
+                Book ID: {{book.id}} <br>
+                Published year: {{book.publishedYear}} <br>
+                ------------- <br>
+              </h5>
+            </div>
+            <li *ngIf="user.books.length === 0"><h5>No books available.</h5></li>
+          </ul>
+        </div>
+        <div class="col bg-light">
+          <div class="text-center"><h4>Board Games:</h4></div>
+          <ul>
+            <div class="card-body" *ngIf="user.boardGames.length >= 1">
+              <h5 class="card-title" *ngFor="let boardGame of user.boardGames">
+                Title: {{ boardGame.title }} <br>
+                Manufacturer: {{boardGame.manufacturer}} <br>
+                Number of players: {{boardGame.numberOfPlayers}} <br>
+                BoardGame ID: {{boardGame.id}} <br>
+                Published year: {{boardGame.publishedYear}} <br>
+                Price: {{boardGame.price}} <br>
+                Description: {{boardGame.description}} <br>
+                ------------- <br>
+              </h5>
+            </div>
+            <li *ngIf="user.boardGames.length === 0"><h5>No board games available.</h5></li>
+          </ul>
+        </div>
+        <div class="col bg-danger">
+          <div class="text-center"><h4>Video Games:</h4></div>
+          <ul>
+            <div class="card-body" *ngIf="user.videoGames.length >= 1">
+              <h5 class="card-title" *ngFor="let videoGames of user.videoGames">
+                Title: {{ videoGames.title }} <br>
+                Manufacturer: {{videoGames.manufacturer}} <br>
+                Genre {{videoGames.genre}} <br>
+                videoGames ID: {{videoGames.id}} <br>
+                Published year: {{videoGames.publishedYear}} <br>
+                Price: {{videoGames.price}} <br>
+                Description: {{videoGames.description}} <br>
+                ------------- <br>
+              </h5>
+            </div>
+            <li *ngIf="user.videoGames.length === 0"><h5>No video games available.</h5></li>
+          </ul>
+        </div>
+    </div>
+    <div *ngIf="!user">
+      <p>Loading user information...</p>
+    </div>
+  </div>
+</div>

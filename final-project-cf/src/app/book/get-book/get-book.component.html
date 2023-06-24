@@ -1,0 +1,24 @@
+<!-- book-presentation.component.html -->
+
+<div class="container d-flex justify-content-center mt-5">
+  <div class="">
+    <div class="col-md-6 d-flex justify-content-center">
+      <img src="../../../assets/img/book-image.png" alt="Book Cover" class="img-fluid">
+    </div>
+    <div class="card bg-light mb-3 display-card" *ngIf="book">
+      <div class="card-header">
+        <h5 class="card-title text-center">{{ book.title }}</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Written by: <strong>{{ book.author }}</strong></p>
+        <p class="card-text">Book ID: {{ book.id }}</p>
+        <p class="card-text">Price: {{ book.price }} &euro;</p>
+        <p class="card-text">Year of publish: {{ book.publishedYear }}</p>
+        <p class="card-text">Description: {{ book.description }}</p>
+        <div class="bg-dark d-flex justify-content-center mt-4">
+          <button class="btn btn-light mt-2 mb-2" (click)="buyBook(book.id)">Buy book</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

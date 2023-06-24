@@ -1,0 +1,102 @@
+.center-sidebar {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    /* align-self: center; */
+    height: fit-content;
+}
+
+.btn {
+    max-height: 38px;
+}
+
+.sidebar-link {
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.sidebar-link:hover {
+    color: silver;
+    transform: scale(1.2)
+}
+
+.sidebar-link::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 40%;
+    background-color: inherit;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.2;
+}
+
+.bg-image {
+    position: relative;
+    z-index: 0;
+}
+
+.bg-image::before {
+    position: absolute;
+    content: "";
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/img/backgroundforBooks.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.bg-image2 {
+    position: relative;
+    z-index: 0;
+}
+
+.bg-image2::before {
+    position: absolute;
+    content: "";
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../assets/img/backgroundforBooks.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(20px);
+    z-index: -1;
+}
+
+header {
+    min-width: 100%;
+    min-height: 10vh;
+}
+
+nav {
+    min-width: fit-content;
+}
+
+.card-columns {
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    max-height: 75vh;
+    /* Set the maximum height of the container */
+}
+
+.buy-btn {
+    align-self: center;
+    padding: 0px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.height-control {
+    min-height: 75vh;
+}

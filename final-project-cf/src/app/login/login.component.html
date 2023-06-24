@@ -1,0 +1,29 @@
+
+<a class="nav-link cursor-pointer" data-bs-toggle="modal" data-bs-target="#loginModal">
+  <h4>Login</h4>
+</a>
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="loginModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label for="username8" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username8" placeholder="Enter your username" formControlName="username">
+          </div>
+          <div class="mb-3">
+            <label for="password8" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password8" placeholder="Enter your password" formControlName="password">
+          </div>
+          <button type="submit" class="btn btn-primary" routerLink="get-user">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

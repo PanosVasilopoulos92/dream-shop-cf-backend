@@ -1,0 +1,8 @@
+
+body {
+    min-height: 70vh;
+}
+
+footer {
+    max-height: fit-content;
+}

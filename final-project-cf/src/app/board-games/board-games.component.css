@@ -1,0 +1,31 @@
+.center-sidebar {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  /* align-self: center; */
+  height: fit-content;
+}
+
+.sidebar-link {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.sidebar-link:hover {
+  color: silver;
+  transform: scale(1.2)
+}
+
+.sidebar-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 40%;
+  background-color: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.2;
+}

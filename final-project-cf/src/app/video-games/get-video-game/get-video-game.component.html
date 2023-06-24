@@ -1,0 +1,20 @@
+<div class="container d-flex justify-content-center mt-5">
+    <div class="col-md-6 d-flex justify-content-center">
+      <img src="../../../assets/img/video-game-img.jpg" alt="Video game Cover" class="img-fluid">
+    </div>
+    <div class="card bg-light mb-3 display-card" *ngIf="videoGame">
+      <div class="card-header">
+        <h5 class="card-title text-center">{{ videoGame.title }}</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Published by: <strong>{{ videoGame.manufacturer}}</strong></p>
+        <p class="card-text">videoGame ID: {{ videoGame.id }}</p>
+        <p class="card-text">Price: {{ videoGame.price }} &euro;</p>
+        <p class="card-text">Year of publish: {{ videoGame.publishedYear }}</p>
+        <p class="card-text">Description: {{ videoGame.description }}</p>
+        <div class="bg-dark d-flex justify-content-center mt-4">
+          <button class="btn btn-light mt-2 mb-2" (click)="buyVideoGame(videoGame.id)">Buy book</button>
+        </div>
+      </div>
+    </div>
+</div>

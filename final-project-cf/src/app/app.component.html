@@ -1,0 +1,70 @@
+<div class="container-fluid">
+  <header class="container-fluid mt-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex align-items-center">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" routerLink="/"><h2>DreamShop</h2></a>
+        <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <app-login></app-login>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/signup"><h4>Sign Up</h4></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span> Coding Factory</span>
+    </nav>
+  </header>
+  <body>
+  <router-outlet></router-outlet>
+  </body>
+  <footer class="bg-dark text-light py-4 mt-5 container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li>Phone: +1 123-456-7890</li>
+            <li>Email: info@dreamshop.com</li>
+            <li>Address: 1234 Dream Street, City, Country</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Follow Us</h5>
+          <ul class="list-inline social-icons">
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Newsletter</h5>
+          <p>Subscribe to our newsletter to receive updates and exclusive offers.</p>
+          <form>
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Email address" aria-label="Email address"
+                aria-describedby="newsletter-btn">
+              <button class="btn btn-primary" type="button" id="newsletter-btn">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div class="text-center">
+          <p>&copy; 2023 DreamShop. All rights reserved.</p>
+          <p>Designed and developed for Coding Factory</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
