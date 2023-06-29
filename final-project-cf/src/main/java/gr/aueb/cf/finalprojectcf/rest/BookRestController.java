@@ -174,31 +174,6 @@ public class BookRestController {
         }
     }
 
-//    @Operation(summary = "Gets a list of all available books and return the as pages.")    // Swagger.
-//    @ApiResponses(value = {
-//            @ApiResponse(responseCode = "200", description = "Books were found.",
-//                    content = { @Content(mediaType = "application/json",
-//                            schema = @Schema(implementation = BookDTO.class)) }),
-//            @ApiResponse(responseCode = "404", description = "Sorry, no books were found.",
-//                    content = @Content)
-//    })
-//    @GetMapping("/books/findAll-pages")
-//    public ResponseEntity<Page<BookDTO>> findAllBooks(@RequestParam(defaultValue = "0") int page,
-//                                                      @RequestParam(defaultValue = "10") int size) {
-//        try {
-//            Page<Book> bookPage = bookService.getPaginatedBooks(page, size);
-//
-//            Page<BookDTO> bookDtoPage = bookPage.map(EntityToDTOMapper::mapBookToBookDTO);
-//
-//
-//            return new ResponseEntity<>(bookDtoPage, HttpStatus.OK);
-//        } catch (EntityNotFoundException e) {
-//            LoggerUtil.getCurrentLogger().warning(e.getMessage());
-//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-//        }
-//
-//    }
-
     @Operation(summary = "Gets a list of all available books.")    // Swagger.
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Books were found.",
@@ -304,7 +279,6 @@ public class BookRestController {
             BookDTO bookDTO = mapBookToBookDTO(book);     // Map in order to return to the client a DTO.
 
             return new ResponseEntity<>(bookDTO, HttpStatus.OK);
-
         } catch (EntityNotFoundException e) {
             LoggerUtil.getCurrentLogger().warning(e.getMessage());
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

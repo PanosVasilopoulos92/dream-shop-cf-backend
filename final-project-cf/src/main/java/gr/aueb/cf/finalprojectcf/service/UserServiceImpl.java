@@ -76,7 +76,7 @@ public class UserServiceImpl implements IUserService {
         userRepository.deleteById(id);  // No need for null check.
     }
 
-    public String giveRoleToUser(Long id, String role) throws EntityNotFoundException {
+    public String updateRoleOfUser(Long id, String role) throws EntityNotFoundException {
         User user = userRepository.findUserById(id);
         if (user == null) throw new EntityNotFoundException(User.class);
         user.setRole(role);

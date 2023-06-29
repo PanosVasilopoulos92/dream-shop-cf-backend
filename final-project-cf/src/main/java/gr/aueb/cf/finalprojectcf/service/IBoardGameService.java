@@ -12,6 +12,7 @@ public interface IBoardGameService {
     BoardGame updateBoardGame(BoardGameDTO boardGameDTO) throws EntityNotFoundException, ProductHasOwner;
     void deleteBoardGame(Long id) throws EntityNotFoundException, ProductHasOwner;
     BoardGame findBoardGameById(Long id) throws EntityNotFoundException;
+    List<BoardGame> findAllAvailableBoardGames() throws EntityNotFoundException;
     List<BoardGame> findBoardGamesByTitleStartingWith(String title) throws EntityNotFoundException;
     List<BoardGame> findBoardGamesByManufacturer(String manufacturer) throws EntityNotFoundException;
     List<BoardGame> findBoardGameByPriceIsLessThanEqual(double price) throws EntityNotFoundException;

@@ -30,6 +30,7 @@ public class EntityToDTOMapper {
         displayUserDTO.setEmail(user.getEmail());
         displayUserDTO.setRole(user.getRole());
         displayUserDTO.setPhone(user.getPhone());
+        displayUserDTO.setImgUrl(user.getImgUrl());
 
         List<BookInUserListDTO> booksOfUser = new ArrayList<>();
         for (Book book : user.getBooks()) {
@@ -80,17 +81,17 @@ public class EntityToDTOMapper {
         return boardGameDTO;
     }
 
-    public static BookDTO mapBookToBookDTO(Book book) {
-        BookDTO bookDTO = new BookDTO();
-
-        bookDTO.setId(book.getId());
-        bookDTO.setTitle(book.getTitle());
-        bookDTO.setAuthor(book.getAuthor());
-        bookDTO.setPrice(book.getPrice());
-        bookDTO.setDescription(book.getDescription());
-        bookDTO.setPublishedYear(book.getPublishedYear());
-
-        return bookDTO;
-    }
+//    public static BookDTO mapBookToBookDTO(Book book) {
+//        BookDTO bookDTO = new BookDTO();
+//
+//        bookDTO.setId(book.getId());
+//        bookDTO.setTitle(book.getTitle());
+//        bookDTO.setAuthor(book.getAuthor());
+//        bookDTO.setPrice(book.getPrice());
+//        bookDTO.setDescription(book.getDescription());
+//        bookDTO.setPublishedYear(book.getPublishedYear());
+//
+//        return bookDTO;
+//    }
 
 }

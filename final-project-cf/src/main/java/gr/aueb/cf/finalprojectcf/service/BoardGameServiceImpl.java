@@ -63,6 +63,21 @@ public class BoardGameServiceImpl implements IBoardGameService {
     }
 
     @Override
+    public List<BoardGame> findAllAvailableBoardGames() throws EntityNotFoundException {
+        List<BoardGame> tmpList = boardGameRepository.findAll();
+        if (tmpList.size() == 0) throw new EntityNotFoundException(BoardGame.class);
+        List<BoardGame> boardGames = new ArrayList<>();
+
+        // The for-loop was created in order to send to the client only the available (not having an owner-user) board games.
+        for (BoardGame boardGame : tmpList) {
+            if (boardGame.getUser() == null) {
+                boardGames.add(boardGame);
+            }
+        }
+        return boardGames;
+    }
+
+    @Override
     public List<BoardGame> findBoardGamesByTitleStartingWith(String title) throws EntityNotFoundException {
         List<BoardGame> tmpList = boardGameRepository.findBoardGamesByTitleStartingWith(title);
         if (tmpList.size() == 0) throw new EntityNotFoundException(BoardGame.class);

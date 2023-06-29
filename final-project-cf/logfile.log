@@ -1018,3 +1018,599 @@ Jun 23, 2023 5:48:01 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBoo
 WARNING: Book belongs to another user.
 Jun 23, 2023 5:48:02 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
 WARNING: Book belongs to another user.
+Jun 24, 2023 4:36:17 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Book belongs to another user.
+Jun 24, 2023 4:47:41 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Book belongs to another user.
+Jun 24, 2023 6:39:38 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:39:45 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:39:59 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:40:28 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByPriceBetween
+WARNING: Sorry, no products were found inside this price range.
+Jun 24, 2023 6:41:44 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:42:30 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:43:17 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:44:50 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:45:51 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:47:14 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:50:26 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 6:50:33 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 7:09:41 PM gr.aueb.cf.finalprojectcf.rest.BookRestController getBooksByTitle
+WARNING: Entity Book does not exist
+Jun 24, 2023 7:09:48 PM gr.aueb.cf.finalprojectcf.rest.BookRestController getBooksByTitle
+WARNING: Entity Book does not exist
+Jun 24, 2023 7:11:01 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 7:11:57 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 7:23:28 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 8:00:09 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByPriceLessThanEqual
+WARNING: Sorry, no products bellow the price tag were found.
+Jun 24, 2023 8:00:24 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 24, 2023 8:00:32 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 25, 2023 10:22:45 AM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 25, 2023 12:33:20 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 25, 2023 1:08:08 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 25, 2023 1:35:12 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 1:35:26 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 1:35:42 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 1:36:20 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 1:39:02 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 1:46:34 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 1:47:29 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 1:47:47 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 25, 2023 2:58:30 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 26, 2023 11:23:11 AM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 11:33:56 AM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 11:34:09 AM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 11:34:12 AM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 11:37:27 AM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 11:45:41 AM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 11:45:49 AM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 12:03:41 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 12:58:12 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 2:36:09 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 2:36:13 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 2:50:57 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 2:50:59 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 2:51:26 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 2:51:29 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 3:37:51 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 3:40:45 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 3:49:07 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 3:51:05 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 3:51:27 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 3:51:43 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 4:11:50 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 26, 2023 4:54:44 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 4:54:48 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 4:55:15 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 26, 2023 5:25:47 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 28 does not exist
+Jun 26, 2023 6:29:58 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 25 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 7:36:55 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 26, 2023 7:37:35 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 26 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 7:39:50 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 26 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 7:40:03 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 32 does not exist
+Jun 26, 2023 7:40:27 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 27 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 7:41:00 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 27 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 8:16:52 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 0 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 8:21:01 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Entity Book with ID: 43 does not exist
+Jun 26, 2023 8:21:31 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Entity Book with ID: 41 does not exist
+Jun 26, 2023 8:22:11 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Entity Book with ID: 43 does not exist
+Jun 26, 2023 8:22:36 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Entity Book with ID: 43 does not exist
+Jun 26, 2023 8:23:57 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 43 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 8:24:24 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 41 belongs to another user and cannot be modified or displayed to other users.
+Jun 26, 2023 8:28:50 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 42 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 12:22:27 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 12:23:03 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 12:26:04 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findBoardGamesByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 27, 2023 1:04:11 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBoardGameToUser
+WARNING: Wrong id, board game wasn't found.
+Jun 27, 2023 1:09:10 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findBoardGamesByManufacturer
+WARNING: Wrong product id or user id.
+Jun 27, 2023 1:09:31 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findBoardGamesByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 27, 2023 1:09:44 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findBoardGamesByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 27, 2023 1:53:21 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 1:55:41 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:01:42 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:05:03 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:05:05 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:05:24 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:26:07 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:26:19 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 22222 does not exist
+Jun 27, 2023 2:26:22 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 22222 does not exist
+Jun 27, 2023 2:26:27 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:27:31 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:30:24 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:30:29 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 22 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:34:32 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:38:09 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:39:02 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:39:05 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 22 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:39:08 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 12 does not exist
+Jun 27, 2023 2:39:14 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 12 does not exist
+Jun 27, 2023 2:40:19 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 27, 2023 2:40:26 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 3:20:21 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Wrong inputs or missing values.
+Jun 27, 2023 3:21:49 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Wrong inputs or missing values.
+Jun 27, 2023 3:24:04 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 11 does not exist
+Jun 27, 2023 3:24:17 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 11 does not exist
+Jun 27, 2023 3:33:05 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController deleteBoardGame
+WARNING: Entity BoardGame with ID: 2112 does not exist
+Jun 27, 2023 3:33:33 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController deleteBoardGame
+WARNING: Entity BoardGame with ID: 212 does not exist
+Jun 27, 2023 3:34:05 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 3:34:12 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 3:35:55 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 3:36:32 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:10:01 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:38:35 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:38:40 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:39:15 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:40:01 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:40:03 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:40:18 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:40:30 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:45:39 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController deleteVideoGame
+WARNING: Video game has owner and only he/she can delete it or modify it.
+Jun 27, 2023 4:47:26 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 4:47:31 PM gr.aueb.cf.finalprojectcf.rest.UserRestController addBookToUser
+WARNING: Wrong product id or user id.
+Jun 27, 2023 5:01:30 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:06:30 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:24:56 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:31:50 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:32:03 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:32:07 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:32:28 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:32:32 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 5:33:22 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 6:42:38 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 27, 2023 7:46:44 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUsersByLastname
+WARNING: Entity User does not exist
+Jun 27, 2023 7:47:15 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 12:45:28 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 28, 2023 1:29:13 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 1:29:22 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 3:17:46 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 28, 2023 4:46:09 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 5:29:14 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 5:43:29 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 5:57:09 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 28, 2023 6:05:08 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 6:08:41 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 28, 2023 7:35:28 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:35:49 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:37:21 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:39:36 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:39:40 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:42:47 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:43:06 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:43:23 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:44:21 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:45:18 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:46:35 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:47:26 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:48:13 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:48:42 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 7:52:33 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:02:53 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:03:16 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:03:37 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:05:40 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:05:50 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:05:56 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:11:34 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:11:36 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:11:52 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:12:07 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:13:16 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:13:23 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:14:20 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 28, 2023 8:14:39 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 11:52:36 AM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 11:54:15 AM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 11:54:36 AM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:10:27 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:10:38 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:10:59 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:12:18 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:16:03 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:16:32 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:17:33 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:17:39 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:18:49 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:19:12 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:20:33 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:20:40 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:22:05 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:25:05 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:25:41 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:25:44 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:39:23 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:42:29 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:42:31 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 12:47:55 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 29, 2023 12:48:19 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 29, 2023 12:53:29 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 29, 2023 1:51:55 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 29, 2023 1:52:26 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 29, 2023 1:53:29 PM gr.aueb.cf.finalprojectcf.rest.LoginRestController login
+WARNING: Entity User does not exist
+Jun 29, 2023 1:56:45 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 2:06:48 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 2:07:48 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 2:42:16 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 2:48:12 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 2:49:32 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 2:53:39 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 2:56:04 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 2:56:23 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:42:46 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 2 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:42:54 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 22 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:43:02 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 22 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:46:46 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 12 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:46:48 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 12 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:46:50 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 12 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:46:54 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 122 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:47:07 PM gr.aueb.cf.finalprojectcf.rest.BookRestController updateBook
+WARNING: Book with ID: 122 belongs to another user and cannot be modified or displayed to other users.
+Jun 29, 2023 3:47:25 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 12 does not exist
+Jun 29, 2023 3:48:05 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:48:17 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:10 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:18 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 12 does not exist
+Jun 29, 2023 3:52:21 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 122 does not exist
+Jun 29, 2023 3:52:27 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 1 does not exist
+Jun 29, 2023 3:52:40 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:42 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:44 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findAllAvailableBoardGames
+WARNING: Wrong product id or user id.
+Jun 29, 2023 3:52:46 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:49 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:50 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:53 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:52:55 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findAllAvailableBoardGames
+WARNING: Wrong product id or user id.
+Jun 29, 2023 3:52:58 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:53:01 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findVideoGameByTitleStartingWith
+WARNING: Wrong product id or user id.
+Jun 29, 2023 3:53:05 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:53:14 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findBookByPriceIsLessThanEqual
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:53:39 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 22 does not exist
+Jun 29, 2023 3:53:52 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 3:55:11 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController updateVideoGame
+WARNING: Wrong inputs or missing values in the update form of video game.
+Jun 29, 2023 3:59:13 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController updateVideoGame
+WARNING: Wrong inputs or missing values in the update form of video game.
+Jun 29, 2023 3:59:17 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController updateVideoGame
+WARNING: Wrong inputs or missing values in the update form of video game.
+Jun 29, 2023 3:59:20 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController updateVideoGame
+WARNING: Wrong inputs or missing values in the update form of video game.
+Jun 29, 2023 3:59:47 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController deleteVideoGame
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:01:00 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController deleteVideoGame
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:01:03 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController deleteVideoGame
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:01:07 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController deleteVideoGame
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:01:23 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findAllAvailableBoardGames
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:03:47 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findAllAvailableBoardGames
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:05:16 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 12 does not exist
+Jun 29, 2023 4:05:19 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 12 does not exist
+Jun 29, 2023 4:05:51 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 12 does not exist
+Jun 29, 2023 4:05:58 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 2 does not exist
+Jun 29, 2023 4:06:00 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 2 does not exist
+Jun 29, 2023 4:06:03 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 3 does not exist
+Jun 29, 2023 4:06:53 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 22 does not exist
+Jun 29, 2023 4:06:57 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 222 does not exist
+Jun 29, 2023 4:07:00 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 222 does not exist
+Jun 29, 2023 4:07:05 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController updateBoardGame
+WARNING: Entity BoardGame with ID: 222 does not exist
+Jun 29, 2023 4:09:13 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:09:14 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:31:01 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:32:23 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 4:32:35 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 4:33:47 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:33:49 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 4:38:29 PM gr.aueb.cf.finalprojectcf.rest.UserRestController updateUser
+WARNING: Update failed. One or more fields have errors or missing values.
+Jun 29, 2023 4:38:32 PM gr.aueb.cf.finalprojectcf.rest.UserRestController updateUser
+WARNING: Update failed. One or more fields have errors or missing values.
+Jun 29, 2023 4:38:52 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:39:55 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUsersByLastname
+WARNING: Entity User does not exist
+Jun 29, 2023 4:40:11 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 4:40:14 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 4:40:42 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:40:45 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:41:01 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:41:28 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:41:33 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:41:52 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:42:21 PM gr.aueb.cf.finalprojectcf.rest.UserRestController findAllUsers
+WARNING: Entity User does not exist
+Jun 29, 2023 4:42:25 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 4:44:22 PM gr.aueb.cf.finalprojectcf.rest.UserRestController getUserByUsername
+WARNING: Entity User does not exist
+Jun 29, 2023 4:45:52 PM gr.aueb.cf.finalprojectcf.rest.BookRestController findAllAvailableBooks
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:46:03 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 22 does not exist
+Jun 29, 2023 4:46:08 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 22 does not exist
+Jun 29, 2023 4:46:37 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 1 does not exist
+Jun 29, 2023 4:46:40 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 1 does not exist
+Jun 29, 2023 4:46:44 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 12 does not exist
+Jun 29, 2023 4:46:48 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 1 does not exist
+Jun 29, 2023 4:46:52 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 12 does not exist
+Jun 29, 2023 4:46:55 PM gr.aueb.cf.finalprojectcf.rest.BookRestController deleteBook
+WARNING: Entity Book with ID: 13 does not exist
+Jun 29, 2023 4:47:14 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:47:18 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findAllAvailableBoardGames
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:47:25 PM gr.aueb.cf.finalprojectcf.rest.VideoGameRestController findAllAvailableVideoGames
+WARNING: Entity Book does not exist
+Jun 29, 2023 4:47:29 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findAllAvailableBoardGames
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:47:34 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController findAllAvailableBoardGames
+WARNING: Wrong product id or user id.
+Jun 29, 2023 4:47:41 PM gr.aueb.cf.finalprojectcf.rest.BoardGameRestController deleteBoardGame
+WARNING: Entity BoardGame with ID: 1 does not exist

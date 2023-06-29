@@ -23,7 +23,9 @@ public class DisplayUserDTO {
 
     private String phone;
 
-    private String role;
+    private String role; // Holds the location where we can read the file where image exist.
+
+    private String imgUrl;
 
     private List<BookInUserListDTO> books = new ArrayList<>();
 

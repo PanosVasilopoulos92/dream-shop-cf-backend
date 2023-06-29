@@ -18,7 +18,7 @@ public interface IUserService {
     List<User> findAllUsers() throws EntityNotFoundException;
     String encryptPassword(String password);
     boolean isPasswordCorrect(String password, String hashedPassword);
-    String giveRoleToUser(Long id, String role) throws EntityNotFoundException;
+    String updateRoleOfUser(Long id, String role) throws EntityNotFoundException;
     void addBookToUser(Long userId, Long bookId) throws EntityNotFoundException, BookBelongToAnotherUserException;
     void removeBookFromUser(Long userId, Long bookId) throws EntityNotFoundException, BookBelongToAnotherUserException;
     void addBoardGameToUser(Long userId, Long boardGameId) throws EntityNotFoundException, ProductHasOwner;

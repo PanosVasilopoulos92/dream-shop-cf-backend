@@ -66,6 +66,7 @@ public class LoginRestController {
             HttpSession session = request.getSession(true);
             String sessionId = session.getId();
             response.addCookie(new Cookie("JSESSIONID", sessionId));
+            System.out.println(response);
 
             // Creates an authentication token with the provided username and password.
             UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(
@@ -83,8 +84,13 @@ public class LoginRestController {
 
             AuthenticationResponseDTO responseDTO = new AuthenticationResponseDTO();
             responseDTO.setToken(UUID.randomUUID().toString());
+            System.out.println(responseDTO.getToken());
             responseDTO.setExpiresIn(3600);
-            responseDTO.setUsername(authRequestDTO.getUsername());
+            responseDTO.setId(user.getId());
+            responseDTO.setUsername(user.getUsername());
+            responseDTO.setRole(user.getRole());
+            responseDTO.setImgUrl(user.getImgUrl());
+            System.out.println(responseDTO.getImgUrl());
 
             return new ResponseEntity<>(responseDTO, HttpStatus.OK);
         } catch (AuthenticationException e) {

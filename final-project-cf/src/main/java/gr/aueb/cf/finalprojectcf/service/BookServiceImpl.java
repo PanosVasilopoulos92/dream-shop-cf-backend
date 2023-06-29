@@ -43,7 +43,7 @@ public class BookServiceImpl implements IBookService {
     @Override
     public Book updateBook(BookDTO bookDTO) throws EntityNotFoundException {
         Book book = bookRepository.findBookById(bookDTO.getId());
-        if (book == null || book.getUser() == null) throw new EntityNotFoundException(Book.class, bookDTO.getId());
+        if (book == null || book.getUser() != null) throw new EntityNotFoundException(Book.class, bookDTO.getId());
 
         return bookRepository.save(convertToBook(bookDTO));
     }

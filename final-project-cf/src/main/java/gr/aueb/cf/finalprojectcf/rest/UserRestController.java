@@ -46,7 +46,8 @@ public class UserRestController {
     private MessageSourceAccessor accessor;
 
     @Autowired
-    public UserRestController(IUserService userService, IBookService bookService, IBoardGameService boardGameService, IVideoGameService videoGameService, UpdateUserValidator updateUserValidator,
+    public UserRestController(IUserService userService, IBookService bookService, IBoardGameService boardGameService,
+                              IVideoGameService videoGameService, UpdateUserValidator updateUserValidator,
                               UserRegisterValidator userRegisterValidator, MessageSource messageSource) {
         this.userService = userService;
         this.bookService = bookService;
@@ -70,9 +71,10 @@ public class UserRestController {
             @ApiResponse(responseCode = "400", description = "Invalid lastname.",
                     content = @Content)
     })
-    @GetMapping("/users/find-users")
+    @GetMapping("/users/find/lastname")
     public ResponseEntity<List<DisplayUserDTO>> getUsersByLastname(@RequestParam("lastname") String lastname) {
         List<User> users;
+
         try {
             users = userService.findUsersByLastname(lastname);
             List<DisplayUserDTO> displayUsersDTOS = new ArrayList<>();
@@ -100,6 +102,7 @@ public class UserRestController {
     @GetMapping("/users/findOne/{username}")
     public ResponseEntity<DisplayUserDTO> getUserByUsername(@PathVariable("username") String username) {
         User user;
+
         try {
             user = userService.getUserByUsername(username);
 
@@ -110,6 +113,34 @@ public class UserRestController {
         } catch (EntityNotFoundException e) {
             LoggerUtil.getCurrentLogger().warning(e.getMessage());
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @Operation(summary = "Gets all user in the database.")    // Swagger.
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Users were found.",
+                    content = {@Content(mediaType = "application/json",
+                            schema = @Schema(implementation = DisplayUserDTO.class))}),
+            @ApiResponse(responseCode = "400", description = "No user was found",
+                    content = @Content)
+    })
+    @GetMapping("/users/findAll")
+    public ResponseEntity<List<DisplayUserDTO>> findAllUsers() {
+        List<User> users;
+
+        try {
+            users = userService.findAllUsers();
+            List<DisplayUserDTO> displayUsersDTOS = new ArrayList<>();
+
+            for (User user : users) {
+                // Maps every User object to a DTO object in order to be returned to the client a List of DTOs.
+                displayUsersDTOS.add(EntityToDTOMapper.mapUserToDisplayUserDTO(user));
+            }
+
+            return new ResponseEntity<>(displayUsersDTOS, HttpStatus.OK);
+        } catch (EntityNotFoundException e) {
+            LoggerUtil.getCurrentLogger().warning(e.getMessage());
+            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
     }
 
@@ -125,6 +156,7 @@ public class UserRestController {
     public ResponseEntity<DisplayUserDTO> registerUser(@RequestBody RegisterUserDTO dto,
                                                        BindingResult bindingResult) {
         userRegisterValidator.validate(dto, bindingResult);
+
         if (bindingResult.hasErrors()) {
             LoggerUtil.getCurrentLogger().warning(accessor.getMessage("errorInRegistration"));
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
@@ -157,7 +189,6 @@ public class UserRestController {
     @PutMapping("/users/update/{userId}")
     public ResponseEntity<DisplayUserDTO> updateUser(@PathVariable("userId") Long id,
                                                      @RequestBody UpdateUserDTO dto, BindingResult bindingResult) throws EntityNotFoundException {
-
         updateUserValidator.validate(dto, bindingResult);
 
         if (bindingResult.hasErrors()) {
@@ -183,8 +214,6 @@ public class UserRestController {
         try {
             dto.setId(id);
             User user = userService.updateUser(id, dto);
-            System.out.println(user.getId());
-
             DisplayUserDTO displayUserDTO = EntityToDTOMapper.mapUserToDisplayUserDTO(user);      //  maps the User to a DisplayUserDTO.
 
             return new ResponseEntity<>(displayUserDTO, HttpStatus.OK);
@@ -227,14 +256,15 @@ public class UserRestController {
             @ApiResponse(responseCode = "404", description = "User was not found.",
                     content = @Content)
     })
-    @PutMapping("/users/{userId}/update-role")
-    public ResponseEntity<String> giveRoleToUser(@PathVariable("userId") Long id, @RequestParam String role) {
+    @PutMapping("/users/{userId}/{role}")
+    public ResponseEntity<Void> updateRoleOfUser(@PathVariable("userId") Long id,
+                                                   @PathVariable("role") String role) {
         try {
-            String message = userService.giveRoleToUser(id, role);
+            String message = userService.updateRoleOfUser(id, role);
             if (message.equals("Not valid input.")) {
-                return new ResponseEntity<>(message, HttpStatus.BAD_REQUEST);
+                return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
             } else {
-                return new ResponseEntity<>(message, HttpStatus.OK);
+                return new ResponseEntity<>(HttpStatus.OK);
             }
         } catch (EntityNotFoundException e) {
             LoggerUtil.getCurrentLogger().warning(e.getMessage());
@@ -255,7 +285,6 @@ public class UserRestController {
     @PostMapping("/users/{userId}/books/add/{bookId}")
     public ResponseEntity<BookInUserListDTO> addBookToUser(@PathVariable("userId") Long userId,
                                                            @PathVariable("bookId") Long bookId) {
-
         try {
             Book book = bookService.findBookById(bookId);
             BookInUserListDTO bookInUserListDTO = EntityToDTOMapper.mapBookInUserListToBook(book);
@@ -284,6 +313,7 @@ public class UserRestController {
     })
     @DeleteMapping("/users/{userId}/books/delete")
     public ResponseEntity<Void> removeBookFromUser(@PathVariable("userId") Long userId, @RequestParam Long bookId) {
+
         try {
             userService.removeBookFromUser(userId, bookId);
             return new ResponseEntity<>(HttpStatus.OK);
@@ -390,6 +420,7 @@ public class UserRestController {
     })
     @DeleteMapping("users/{userId}/video-games/delete")
     public ResponseEntity<Void> removeVideoGameFromUser(@PathVariable("userId") Long userId, @RequestParam Long videoGameId) {
+
         try {
             userService.removeVideoGameFromUser(userId, videoGameId);
 

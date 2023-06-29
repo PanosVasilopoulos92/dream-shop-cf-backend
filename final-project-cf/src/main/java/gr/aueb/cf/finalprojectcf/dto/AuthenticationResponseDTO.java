@@ -8,7 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthenticationResponseDTO {
+    private Long id;
     private String username;
+    private String role;
     private String token;
     private int expiresIn;
+    private String imgUrl;
 }

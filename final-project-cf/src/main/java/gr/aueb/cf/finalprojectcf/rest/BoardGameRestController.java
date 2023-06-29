@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Locale;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200", allowedHeaders = "Access-Control-Allow-Origin")
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/api")
 public class BoardGameRestController {
     private final IBoardGameService boardGameService;
@@ -55,7 +55,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "400", description = "Invalid data was provided. Insert failed.",
                     content = @Content)
     })
-    @PostMapping("/boardGames/create")
+    @PostMapping("/board-games/create")
     public ResponseEntity<BoardGameDTO> addBoardGame(@RequestBody BoardGameDTO dto, BindingResult bindingResult) {
 
         boardGameValidator.validate(dto, bindingResult);
@@ -81,7 +81,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "404", description = "Board game wasn't found.",
                     content = @Content)
     })
-    @PutMapping("/boardGames/update/{boardGameId}")
+    @PutMapping("/board-games/update/{boardGameId}")
     public ResponseEntity<BoardGameDTO> updateBoardGame(@PathVariable("boardGameId") Long id,
                                                         @RequestBody BoardGameDTO dto, BindingResult bindingResult) {
         boardGameValidator.validate(dto, bindingResult);
@@ -114,7 +114,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "404", description = "Board game wasn't found.",
                     content = @Content)
     })
-    @DeleteMapping("/boardGames/delete/{boardGameId}")
+    @DeleteMapping("/board-games/delete/{boardGameId}")
     public ResponseEntity<BoardGameDTO> deleteBoardGame(@PathVariable("boardGameId") Long id) {
         try {
             BoardGame boardGame = boardGameService.findBoardGameById(id);
@@ -141,7 +141,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "404", description = "Board game wasn't found.",
                     content = @Content)
     })
-    @GetMapping("/boardGames/findOne/{boardGameId}")
+    @GetMapping("/board-games/findOne/{boardGameId}")
     public ResponseEntity<BoardGameDTO> findBoardGameById(@PathVariable("boardGameId") Long id) {
         try {
             BoardGame boardGame = boardGameService.findBoardGameById(id);
@@ -158,6 +158,33 @@ public class BoardGameRestController {
         }
     }
 
+    @Operation(summary = "Gets a board game from the table 'BOARD_GAMES'.")    // Swagger.
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Board game was found.",
+                    content = { @Content(mediaType = "application/json",
+                            schema = @Schema(implementation = BoardGameDTO.class)) }),
+            @ApiResponse(responseCode = "400", description = "Board game belongs to another user.",
+                    content = @Content),
+            @ApiResponse(responseCode = "404", description = "Board game wasn't found.",
+                    content = @Content)
+    })
+    @GetMapping("/board-games/findAll")
+    public ResponseEntity<List<BoardGameDTO>> findAllAvailableBoardGames() {
+        List<BoardGameDTO> boardGameDTOS = new ArrayList<>();
+        try {
+            List<BoardGame> boardGames = boardGameService.findAllAvailableBoardGames();
+
+            for (BoardGame boardGame : boardGames) {
+                boardGameDTOS.add(EntityToDTOMapper.mapBoardGameToBoardGameDTO(boardGame));
+            }
+
+            return new ResponseEntity<>(boardGameDTOS, HttpStatus.OK);
+        } catch (EntityNotFoundException e) {
+            LoggerUtil.getCurrentLogger().warning(accessor.getMessage("notValidId"));
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
     @Operation(summary = "Gets a list of board games from the table 'BOARD_GAMES' based on the title initials.")    // Swagger.
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Board games were found.",
@@ -166,7 +193,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "404", description = "Sorry, no such board game exists in database.",
                     content = @Content)
     })
-    @GetMapping("/boardGames/find/title")
+    @GetMapping("/board-games/find/title")
     public ResponseEntity<List<BoardGameDTO>> findBoardGamesByTitleStartingWith(@RequestParam String title) {
         List<BoardGameDTO> boardGameDTOS = new ArrayList<>();
         try {
@@ -189,7 +216,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "404", description = "Manufacturer not exist or has no products available.",
                     content = @Content)
     })
-    @GetMapping("/boardGames/find/manufacturer")
+    @GetMapping("/board-games/find/manufacturer")
     public ResponseEntity<List<BoardGameDTO>> findBoardGamesByManufacturer(@RequestParam String manufacturer) {
         List<BoardGameDTO> boardGameDTOS = new ArrayList<>();
         try {
@@ -212,7 +239,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "404", description = "Sorry, no board game has price less than that.",
                     content = @Content)
     })
-    @GetMapping("/boardGames/find/price-tag")
+    @GetMapping("/board-games/find/price-tag")
     public ResponseEntity<List<BoardGameDTO>> findBoardGameByPriceIsLessThan(@RequestParam double price) {
         List<BoardGameDTO> boardGameDTOS = new ArrayList<>();
         try {
@@ -235,7 +262,7 @@ public class BoardGameRestController {
             @ApiResponse(responseCode = "404", description = "Sorry, no board game were found is this price range.",
                     content = @Content)
     })
-    @GetMapping("/boardGames/find/price-range")
+    @GetMapping("/board-games/find/price-range")
     public ResponseEntity<List<BoardGameDTO>> findBoardGameByPriceIsBetween(@RequestParam double price1,
                                                                             @RequestParam double price2) {
         List<BoardGameDTO> boardGameDTOS = new ArrayList<>();

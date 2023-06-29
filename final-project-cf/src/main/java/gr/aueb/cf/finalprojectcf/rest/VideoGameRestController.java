@@ -58,7 +58,6 @@ public class VideoGameRestController {
             @ApiResponse(responseCode = "400", description = "Invalid data was provided. Insertion failed.",
                     content = @Content)
     })
-    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     @PostMapping("/video-games/create")
     public ResponseEntity<VideoGameDTO> addVideoGame(@RequestBody VideoGameDTO dto, BindingResult bindingResult) {
 
@@ -119,7 +118,6 @@ public class VideoGameRestController {
             @ApiResponse(responseCode = "400", description = "Invalid data was provided. Delete failed.",
                     content = @Content)
     })
-    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @DeleteMapping("/video-games/delete/{videoGameId}")
     public ResponseEntity<Void> deleteVideoGame(@PathVariable("videoGameId") Long id) {
         try {
